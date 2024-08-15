@@ -2,7 +2,9 @@
 
 `go-copyfs` is a library to copy a given `fs.FS` into the local filesystem.
 
-**Note**: `go-copyfs` doesn't support the symlink because `fs.FS` [doesn't support as of Go 1.18](https://github.com/golang/go/issues/49580).
+**Note**: `go-copyfs` doesn't support the symlink because `fs.FS` [doesn't support as of Go 1.18](https://github.com/golang/go/issues/49580).'
+
+**Note**: Go 1.23.0 now includes the almost same function as [`os.CopyFS` function](https://pkg.go.dev/os#CopyFS).
 
 # Motivation
 
